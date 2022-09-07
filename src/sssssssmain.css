@@ -1,0 +1,515 @@
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*********** TopBanner 시작 ***********/
+.TopBanner{
+  background: #325DCD;
+  color: #fff;
+}
+.TopBanner .container{
+  display: flex;
+  justify-content: space-between;
+  line-height: 80px;
+}
+.TopBanner .container .call{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.TopBanner .container .call>i{
+  font-size: 50px;
+  color: #fff;
+}
+.TopBanner .container .call>span{
+  display: block;
+  font-size: 29px;
+}
+.TopBanner .container .call>a{
+  display: block;
+  font-size: 40px;
+}
+.TopBanner .container .call .time span{
+  display: block;
+  line-height: 25px;
+}
+.TopBanner .container .notOpen>i{
+  font-size: 12px;
+  cursor: pointer;
+  background: #ddd;
+  padding: 4px;
+  border-radius: 50%;
+  color: #555;
+}
+.TopBanner .container .notOpen input{
+  vertical-align: 0px;
+}
+/*********** TopBanner 끝 ***********/
+
+
+
+/*********** header 시작 ***********/
+.header .container .top {
+  text-align: right;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.header .container .top i {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.header .container .bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .bottom .gnb ul{
+  display: flex;
+  gap: 70px;
+  padding: 30px 0;
+  font-size: 19px;
+  font-weight: 500;
+}
+.bottom .menu_bar i{
+  cursor: pointer;
+  font-size: 22px;
+}
+.bottom .menu_bar i:first-child{
+  margin-right: 10px;
+}
+/*********** header 끝 ***********/
+/*********** main 시작 ***********/
+
+.mainVisual {
+  position: relative;
+}
+.mainVisual .mainSlider figure{
+  height: 600px;
+}
+
+
+.mainVisual .mainSlider .itm01{
+  background: url(../img/main01.jpg) no-repeat center center / cover;;
+}
+.mainVisual .mainSlider .itm02 {
+  background: url(../img/main02.jpg) no-repeat center center / cover;
+  ;
+}
+.mainVisual .mainSlider .itm03 {
+  background: url(../img/main03.jpg) no-repeat center center / cover;
+  ;
+}
+.mainVisual .mainSlider .itm04 {
+  background: url(../img/main04.jpg) no-repeat center center / cover;
+  ;
+}
+.mainVisual .mainSlider .itm05 {
+  background: url(../img/main05.jpg) no-repeat center center / cover;
+  ;
+}
+.smartBar{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  color: #fff;
+  background-image: linear-gradient(to right,#57A1EC, #325DCD);
+}
+
+.smartBar .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.smartBar .tit{
+  font-size: 25px;
+  font-weight: 500;
+}
+.smartBar .barMenu ul{
+  display: flex;
+  gap: 50px;
+}
+
+.smartBar .barMenu ul li{
+  font-size: 20px;
+  font-weight: 300;
+}
+.smartBar .reserv a{
+  border-left: 2px solid #4189d0;
+  display: flex;
+  align-items: center;
+}
+
+.smartBar .reserv a i{
+  font-size: 35px;
+  padding: 0 10px;
+}
+
+.smartBar .reserv a p:first-child{
+  font-size: 23px;
+  margin-bottom: 8px;
+}
+
+.smartBar .reserv a p:last-child{
+  font-size: 18px;
+}
+
+.convenient{
+  padding: 100px 0;
+}
+.convenient .container{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.convenient .container>div{
+  border-top: 3px solid #325DCD;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+  flex: 1;
+  padding: 20px 10px 15px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 370px;
+}
+.convenient .container>div>div>img{
+  margin-bottom: 20px;
+}
+.convenient .container>div>div h3{
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.convenient .container>div>div .txt{
+  margin-bottom: 20px;
+}
+
+.convenient .container>div>div span{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.convenient .container>div>div .reserForm{
+  display: flex;
+  justify-content: space-between;
+}
+
+.convenient .container>div>div .reserForm .form{
+  margin-right: 5px;
+}
+
+
+.convenient .container>div>div .reserForm .form div{
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+
+}
+.convenient .container>div>div .reserForm .form div:first-child{
+  margin-bottom: 5px;
+}
+
+.convenient .container>div>div .reserForm .form div input{  
+  outline: none;
+  border: none;
+}
+.convenient .container .firstVisit .bottom{
+  margin-bottom: 10px;
+}
+
+.convenient .container>div>div .reserForm .application input{
+  background: #325DCD;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.convenient .container>div>div .reserForm .application input:hover{  
+  background: #4189d0;
+}
+
+.convenient .container .certificate .inner_btn a,
+.convenient .container .reserConfirm .inner_btn a,
+.convenient .container .infm .inner_btn a{
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #325DCD;
+  color: #325DCD;
+  border-radius: 3px;
+}
+
+.convenient .container .certificate .inner_btn a:hover,
+.convenient .container .reserConfirm .inner_btn a:hover,
+.convenient .container .infm .inner_btn a:hover{
+  color: #fff;
+  background: #325DCD;  
+  border: 1px solid #325DCD;
+
+}
+
+.convenient .container .infm .txt p{
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.search{
+  padding: 100px 0;
+  background: #325dcd;
+  text-align: center;
+  color: #fff;
+}
+
+.search>h2{
+  font-size: 33px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.search>p{
+  font-size: 21px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.search .search_box{
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 8px 20px;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.search .search_box input{
+  border: none;
+  outline: none;
+  width: 93%;
+
+}
+
+.search .search_box i{
+  font-size: 30px;
+  color: #325dcd;
+}
+
+.search .container{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.search .container>div {
+  padding: 45px 20px;
+  cursor: pointer;
+}
+
+.search .container>div img{
+  width: 70px;
+  height: 77px;
+  margin-bottom: 15px;
+}
+
+.search .container>div p{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.search .container>div span{
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.department,
+.clinic{
+  background: #58A3ED;
+}
+
+.department:hover,
+.clinic:hover{
+  background: #69b4ff;
+}
+.center,
+.outpatient{
+  background: #6AB9C3;
+}
+
+.center:hover,
+.outpatient:hover{
+  background: #5acedd;
+}
+
+.newsTab{
+  padding: 100px 0;
+  background: #fff;
+}
+
+.newsTab .container{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.newsTab .container>div{
+    flex: 1;
+}
+
+.newsTab .tab_content{
+  margin-top: 10px;
+}  
+.newsTab .tab_content>div{
+    display: none;
+}
+
+.newsTab .tab_content>div.on{
+    display: block;
+}
+
+
+.newsTab .tab_menu{
+    display: flex;
+    border-bottom: 1px solid #999;
+}
+.newsTab .tab_menu li{
+  font-size: 24px;
+  color: #d9d9d9;
+  margin-bottom: 15px;
+}
+
+
+.newsTab .tab_menu li.on{
+    color: #222;
+}
+
+/* .newsTab .tab_menu li~li{
+    border-left:1px solid #333
+} */
+
+.newsTab .tab_menu li a{
+    display: block;
+    padding: 0 15px;
+}
+
+.newsTab .tab_menu li .pd{
+  padding-left: 0;
+  border-right: 1px solid #ddd;
+}
+
+
+.newsTab .notice a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsTab .notice a:hover{
+    color: #253981;
+    text-decoration: underline;
+}
+.newsTab .notice strong{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    min-width: 0;    
+    width: 450px;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.newsTab .notice span{
+  color: #959595;
+  font-size: 14px;
+  float: right;
+  line-height: 30px;
+}
+
+.health{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 100px 0;
+
+}
+.health h2{
+  text-align: left;
+  font-size: 31px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.health .container{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.health .container .img{
+  margin-bottom: 15px;
+}
+
+.health .container strong{
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.health .container em{
+  display: block;
+  font-size: 14px;
+  color: #959595;
+}
+
+.footer{
+  background:#333;
+  padding: 30px 0;
+}
+
+.footer .container{
+  display: flex;
+  gap: 100px;
+  color: #fff;
+}
+
+.footer .container .right .top,
+.footer .container .right .middle {
+  margin-bottom: 20px;
+}
+
+.footer .container .right .top ul{
+  font-size: 15px;
+  display: flex;
+  gap: 30px;
+  color: #ddd;
+}
+
+.footer .container .right .middle span{
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 20px;
+  color: #ddd;
+}
+
+.footer .container .right .bottom{
+  font-size: 13px;
+  font-weight: 200;
+  color: #999;
+} 
+

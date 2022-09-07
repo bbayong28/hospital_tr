@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/common.js"></script>
+</head>
+
+<body>
+    <div class="Wrap">
+        <!-- ////////// TopBanner 시작 ////////// -->
+        <div class="TopBanner">
+            <div class="container">
+                <div class="call">
+                    <i class="xi-call"></i>
+                    <span>대표전화</span>
+                    <a href="tel:1544-8900">1544-8900</a>
+                    <div class="time">
+                        <span class="day">평일 : 08:30 ~ 12:00 / 13:30 ~ 17:00</span>
+                        <span class="weekend">토요일 : 08:30 ~ 17:00</span>
+                    </div>
+                </div>
+                <div class="notOpen">
+                    <input type="checkbox" id="open">
+                    <label for="open">오늘하루 열지않기</label>
+                    <i class="xi-close"></i>
+                </div>
+            </div>
+        </div>
+        <!-- ////////// TopBanner 끝 ////////// -->
+        <!-- ////////// header 시작 ////////// -->
+        <header class="header">
+            <div class="container">
+                <div class="top">
+                    <a href=""><i class="xi-profile"></i></a>
+                    <a href=""><i class="xi-paper"></i></a>
+                    <select name="lang" id="lang">
+                        <option value="lang">Ko</option>
+                        <option value="lang">En</option>
+                        <option value="lang">Jp</option>
+                    </select>
+                </div>
+                <div class="bottom">
+                    <h1>
+                        <a href="#!">
+                            <img src="./img/mo_logo.png" alt="">
+                        </a>
+                    </h1>
+                    <nav class="gnb">
+                        <ul>
+                            <li><a href="">진료과/의료진</a></li>
+                            <li><a href="">진료안내</a></li>
+                            <li><a href="">진료 예약/발급</a></li>
+                            <li><a href="">병원안내</a></li>
+                            <li><a href="">건강정보</a></li>
+                        </ul>
+                    </nav>
+                    <div class="menu_bar">
+                        <i class="xi-bars"></i>
+                        <i class="xi-search"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ////////// header 끝 ////////// -->
+        <!-- ////////// main 시작 ////////// -->
+        <main>
+
+            <section class="mainVisual">
+                <div class="mainSlider">
+                    <figure class="itm01"></figure>
+                    <figure class="itm02"></figure>
+                    <figure class="itm03"></figure>
+                    <figure class="itm04"></figure>
+                    <figure class="itm05"></figure>
+                </div>
+                <div class="smartBar">
+                    <div class="container">
+                        <div class="tit">
+                            스마트 Bar
+                        </div>
+                        <div class="barMenu">
+                            <ul>
+                                <li><a href="#!"><i class="xi-paper-o"></i>진료예약</a></li>
+                                <li><a href="#!"><i class="xi-clock-o"></i>진료시간</a></li>
+                                <li><a href="#!"><i class="xi-city"></i>층별안내</a></li>
+                                <li><a href="#!"><i class="xi-map-o"></i>오시는길</a></li>
+                                <li><a href="#!"><i class="xi-car"></i>주차안내</a></li>
+                            </ul>
+                        </div>
+                        <div class="reserv">
+                            <a href="#!">
+                                <i class="xi-call"></i>
+                                <div class="txt">
+                                    <p>진료예약</p>
+                                    <p>051)555-5959</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="convenient">
+                <div class="container">
+                    <div class="firstVisit">
+                        <div class="top">
+                            <img src="./img/icon_01.png" alt="">
+                            <h3>첫방문고객 예약상담신청</h3>
+                            <div class="txt">
+                                <span>전문상담사가 빠른 예약을 도와드립니다.</span>
+                                <span>상담시간 : 평일08:00 ~ 17:00</span>
+                                <span>토요일, 일요일, 공휴일 제외</span>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="reserForm">
+                                <div class="form">
+                                    <div><input type="text" name="c_name" id="c_name" placeholder="성함" size="15"></div>
+                                    <div><input type="text" name="p_number" id="p_number" placeholder="연락처" size="15">
+                                    </div>
+                                </div>
+                                <div class="application">
+                                    <input type="submit" value="예약신청">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <div class="top">
+                            <img src="./img/icon_02.png" alt="">
+                            <h3>증명서 발급</h3>
+                            <div class="txt">
+                                <span>온라인으로 증명서를</span>
+                                <span>발급받으실 수 있습니다.</span>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="inner_btn">
+                                <a href="#!">발급서비스 안내</a>
+                                <a href="#!">온라인증명서발급</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reserConfirm">
+                        <div class="top">
+                            <img src="./img/icon_03.png" alt="">
+                            <h3>온라인 진료예약/확인</h3>
+                            <div class="txt">
+                                <span>온라인으로 쉽고 빠르게</span>
+                                <span>진료예약 및 조회를 하실 수 있습니다.</span>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="inner_btn">
+                                <a href="#!">외래진료 예약</a>
+                                <a href="#!">건강검진 예약</a>
+                                <a href="#!">진료예약 확인</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="infm">
+                        <div class="top">
+                            <img src="./img/icon_04.png" alt="">
+                            <h3>진료안내</h3>
+                            <div class="txt">
+                                <span>사정에 따라 변경될 수 있으며,</span>
+                                <span>당일예약은 불가합니다.</span>
+                                <p>대표전화 : 1544-8900</p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="inner_btn">
+                                <a href="#!">외래안내</a>
+                                <a href="#!">진료시간표</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="search">
+                <h2>진료과/의료진</h2>
+                <p>진료과/의료진을 검색하시면 더욱 쉽고 빠르게 서비스를 이용하실 수 있습니다.</p>
+                <div class="search_box">
+                    <input type="text" placeholder="검색하실 진료과/의료진 명을 입력하세요.">
+                    <i class="xi-search"></i>
+                </div>
+                <div class="container">
+                    <div class="department">
+                        <img src="./img/icon_05.png">
+                        <p>진료과</p>
+                        <span>원하시는 진료과를 선택하시면 </span>
+                        <span>소개 및 의료진정보를 보실 수 있습니다.</span>
+                    </div>
+                    <div class="center">
+                        <img src="./img/icon_06.png">
+                        <p>전문센터</p>
+                        <span>원하시는 전문센터를 선택하시면 </span>
+                        <span> 소개 및 의료진정보를 보실 수 있습니다.</span>
+                    </div>
+                    <div class="clinic">
+                        <img src="./img/icon_07.png">
+                        <p>특수클리닉</p>
+                        <span>원하시는 특수클리닉을 선택하시면 </span>
+                        <span>소개 및 의료진정보를 보실 수 있습니다.</span>
+                    </div>
+                    <div class="outpatient">
+                        <img src="./img/icon_08.png">
+                        <p>외래진료안내</p>
+                        <span>외래진료 예약부터 진료절차까지 </span>
+                        <span>외래진료의 모든 것을 알려드립니다.</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsTab">
+                <div class="container">
+                    <div class="left">
+                        <ul class="tab_menu">
+                            <li class="on"><a href="" class="pd">병원소식</a></li>
+                            <li><a href="">입찰공고</a></li>
+                        </ul>
+
+                        <div class="tab_content">
+                            <div class="on">
+                                <ul class="notice">
+                                    <li>
+                                        <a href="">
+                                            <strong>이정호 소화기내과 교수, 고난이도 대장협착 내시경수술 의료계 </strong>
+                                            <span>2022-09-05</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>수술·약물 필요 없는 알츠하이머 치료시대 열린다. 앞으로 향후</strong>
+                                            <span>2022-09-01</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>부산 광혜병원, 부산광역시장상 수상. 환자가 먼저인 의료진의</strong>
+                                            <span>2022-08-25</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>광혜병원 응급센터, 보건소와 손잡고 취약계층 의료 지원과 건</strong>
+                                            <span>2022-08-13</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>뇌사자 장기기증센터 개설및 기증시스템 마련을 위한 사례 연구</strong>
+                                            <span>2022-08-06</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="notice">
+                                    <li>
+                                        <a href="">
+                                            <strong>소화기전문 병동 추가개설로 인한 공사 </strong>
+                                            <span>2022-09-03</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>의료기기 C-Arm_재활치료과 구매 </strong>
+                                            <span>2022-08-11</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>치료기기 ESWT_재활치료과 구매</strong>
+                                            <span>2022-07-23</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>골밀도측정기_정형외과 추가 구매</strong>
+                                            <span>2022-06-15</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>의료기기 경피혈중가스분석기_호흡기내과 구매</strong>
+                                            <span>2022-04-03</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <ul class="tab_menu">
+                            <li class="on"><a href="" class="pd">언론보도</a></li>
+                            <li><a href="">채용정보</a></li>
+                        </ul>
+
+                        <div class="tab_content">
+                            <div class="on">
+                                <ul class="notice">
+                                    <li>
+                                        <a href="">
+                                            <strong>"월경 과다, 골반 통증" 35세 이상 여성 40~50% 알고보니 자궁</strong>
+                                            <span>2022-09-06</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>당뇨병 예방과 치료에 도움되는 식습관 및 생활습관 및 운동을</strong>
+                                            <span>2022-09-04</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>"우리아이가 비만이라고요?" 소아비만 세미나 in 광혜병원 3층</strong>
+                                            <span>2022-08-29</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>"규칙적인 식습관의 중요성" 명의 광혜병원 김철수 교수, 위장 튼튼</strong>
+                                            <span>2022-08-21</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>부산 광혜병원, 6개월동안 임시선별진료소 대상으로 지정되어 운영 </strong>
+                                            <span>2022-08-18</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="notice">
+                                    <li>
+                                        <a href="">
+                                            <strong>2022 재활치료부 작업치료사 채용공고</strong>
+                                            <span>2022-09-08</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>2022 신규간호사 채용공고</strong>
+                                            <span>2022-08-02</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>2022 재활치료부 물리치료사 채용공고</strong>
+                                            <span>2022-07-23</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>2022 방사선사 채용공고</strong>
+                                            <span>2022-07-10</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <strong>2022 의료지원부 원무과 채용공고</strong>
+                                            <span>2022-04-03</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="health">
+                <h2>건강 정보</h2>
+                <div class="container">
+                    <div>
+                        <div class="img">
+                            <img src="./img/Rectangle 20.png" alt="">
+                        </div>
+                        <strong>사회성과 스펙트럼 장애(우리주변의 우영우 이해하기)</strong>
+                        <em>2022-08-27</em>
+                    </div>
+                    <div>
+                        <div class="img">
+                            <img src="./img/Rectangle 17.png" alt="">
+                        </div>
+                        <strong>산만한 우리아이, ADHD 어떻게 해야 할까요?</strong>
+                        <em>2022-07-19</em>
+                    </div>
+                    <div>
+                        <div class="img">
+                            <img src="./img/Rectangle 18.png" alt="">
+                        </div>
+                        <strong>통풍을 확실하고 안전하게 치료하는 비법</strong>
+                        <em>2022-06-13</em>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- ////////// main 끝 ////////// -->
+        <!-- ////////// footer 시작 ////////// -->
+        <footer class="footer">
+            <div class="container">
+                <div class="left">
+                    <div class="logo">
+                        <a href="#!">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <ul>
+                            <li><a href="#!">개인정보취급방침</a></li>
+                            <li><a href="#!">비급여수가안내</a></li>
+                            <li><a href="#!">환자권리장전</a></li>
+                            <li><a href="#!">이메일무단수집거부</a></li>
+                        </ul>
+                    </div>
+                    <div class="middle">
+                        <span>부산광역시 동래구 충렬대로 96 광혜병원</span>
+                        <span>TEL : 051-503-2111</span>
+                        <span>FAX : 051-501-1625</span>
+                    </div>
+                    <div class="bottom">
+                        &copy; 2021 GWANGHYE GENERAL HOSPITAL All rights reserved. Designed by ITLEIFE
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <!-- ////////// footer 끝 ////////// -->
+    </div>
+
+
+</body>
+
+</html>
