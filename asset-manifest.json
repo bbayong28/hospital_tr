@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/bbayong28/hospital_tr.git/static/css/main.31d6cfe0.css",
+    "main.js": "/bbayong28/hospital_tr.git/static/js/main.c4d2c783.js",
+    "index.html": "/bbayong28/hospital_tr.git/index.html",
+    "main.c4d2c783.js.map": "/bbayong28/hospital_tr.git/static/js/main.c4d2c783.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.c4d2c783.js"
+  ]
+}
