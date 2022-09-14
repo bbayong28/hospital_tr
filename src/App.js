@@ -1,15 +1,17 @@
 //import logo from './logo.svg';
 import './App.css';
 import './index.css';
-import Header from "./Header";
-import Main from "./Main";
-import Footer from "./Footer";
+import Header from './component/Header';
+import MainVisual from './component/MainVisual';
+import Footer from './component/Footer';
 
 function App() {
   return (
-     <div className="Wrapper">
+    <div className="Wrapper">
       <Header />
-      <Main/>
+      <main>
+        <MainVisual/>
+      </main>      
       <Footer />
     </div>   
   );
