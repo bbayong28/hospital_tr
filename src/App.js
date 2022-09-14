@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main>
         <MainVisual/>
-      </main>      
+      </main>
       <Footer />
     </div>   
   );

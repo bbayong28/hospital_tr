@@ -110,3 +110,83 @@
   margin-right: 10px;
 }
 /*********** Header 끝 ***********/
+/*********** MainVisual 시작 ***********/
+
+.mainVisual {
+  position: relative;
+}
+.mainVisual .mainSlider figure{
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 150% auto;
+}
+
+.mainVisual .mainSlider .itm01{
+  background: url(../public/assets/images/main01.jpg);
+}
+
+.mainVisual .mainSlider .itm02 {
+  background: url(../public/assets/images/main02.jpg);
+  ;
+}
+.mainVisual .mainSlider .itm03 {
+  background: url(../public/assets/images/main03.jpg);
+  ;
+}
+.mainVisual .mainSlider .itm04 {
+  background: url(../public/assets/images/main04.jpg) ;
+  ;
+}
+.mainVisual .mainSlider .itm05 {
+  background: url(../public/assets/images/main05.jpg) ;
+  ;
+}
+.smartBar{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  color: #fff;
+  background-image: linear-gradient(to right,#57A1EC, #325DCD);
+}
+
+.smartBar .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.smartBar .tit{
+  font-size: 25px;
+  font-weight: 500;
+}
+.smartBar .barMenu ul{
+  display: flex;
+  gap: 50px;
+}
+
+.smartBar .barMenu ul li{
+  font-size: 20px;
+  font-weight: 300;
+}
+.smartBar .reserv a{
+  border-left: 2px solid #4189d0;
+  display: flex;
+  align-items: center;
+}
+
+.smartBar .reserv a i{
+  font-size: 35px;
+  padding: 0 10px;
+}
+
+.smartBar .reserv a p:first-child{
+  font-size: 23px;
+  margin-bottom: 8px;
+}
+
+.smartBar .reserv a p:last-child{
+  font-size: 18px;
+}
+
+/*********** MainVisual 끝 ***********/
