@@ -112,35 +112,32 @@
 /*********** Header 끝 ***********/
 /*********** MainVisual 시작 ***********/
 
-.mainVisual {
+.MainVisual {
   position: relative;
 }
-.mainVisual .mainSlider figure{
+.MainVisual figure{
   height: 600px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center center;
   background-size: 150% auto;
+  background-size: cover;
+ */
 }
 
-.mainVisual .mainSlider .itm01{
-  background: url(../public/assets/images/main01.jpg);
+.MainVisual .itm01{
+  background: url(../public/assets/images/main01.jpg) no-repeat center center / cover;
 }
-
-.mainVisual .mainSlider .itm02 {
-  background: url(../public/assets/images/main02.jpg);
-  ;
+.MainVisual .itm02 {
+  background: url(../public/assets/images/main02.jpg) no-repeat center center / cover;
 }
-.mainVisual .mainSlider .itm03 {
-  background: url(../public/assets/images/main03.jpg);
-  ;
+.MainVisual .itm03 {
+  background: url(../public/assets/images/main03.jpg) no-repeat center center / cover;
 }
-.mainVisual .mainSlider .itm04 {
-  background: url(../public/assets/images/main04.jpg) ;
-  ;
+.MainVisual .itm04 {
+  background: url(../public/assets/images/main04.jpg) no-repeat center center / cover;
 }
-.mainVisual .mainSlider .itm05 {
-  background: url(../public/assets/images/main05.jpg) ;
-  ;
+.MainVisual .itm05 {
+  background: url(../public/assets/images/main05.jpg) no-repeat center center / cover;
 }
 .smartBar{
   position: relative;
@@ -151,7 +148,7 @@
   background-image: linear-gradient(to right,#57A1EC, #325DCD);
 }
 
-.smartBar .container{
+.smartBar .inner{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -190,3 +187,422 @@
 }
 
 /*********** MainVisual 끝 ***********/
+/*********** Convenient 시작 ***********/
+
+.Convenient{
+  padding: 100px 0;
+}
+.Convenient .inner{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Convenient .inner>div{
+  border-top: 3px solid #325DCD;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+  flex: 1;
+  padding: 20px 10px 15px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 370px;
+}
+.Convenient .inner>div>div>img{
+  margin-bottom: 20px;
+}
+.Convenient .inner>div>div h3{
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Convenient .inner>div>div .txt{
+  margin-bottom: 20px;
+}
+
+.Convenient .inner>div>div span{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.Convenient .inner>div>div .reserForm{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Convenient .inner>div>div .reserForm .form{
+  margin-right: 5px;
+}
+
+
+.Convenient .inner>div>div .reserForm .form div{
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+
+}
+.Convenient .inner>div>div .reserForm .form div:first-child{
+  margin-bottom: 5px;
+}
+
+.Convenient .inner>div>div .reserForm .form div input{  
+  outline: none;
+  border: none;
+}
+.Convenient .inner .firstVisit .bottom{
+  margin-bottom: 10px;
+}
+
+.Convenient .inner>div>div .reserForm .application input{
+  background: #325DCD;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.Convenient .inner>div>div .reserForm .application input:hover{  
+  background: #4189d0;
+}
+
+.Convenient .inner .certificate .inner_btn a,
+.Convenient .inner .reserConfirm .inner_btn a,
+.Convenient .inner .infm .inner_btn a{
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #325DCD;
+  color: #325DCD;
+  border-radius: 3px;
+}
+
+.Convenient .inner .certificate .inner_btn a:hover,
+.Convenient .inner .reserConfirm .inner_btn a:hover,
+.Convenient .inner .infm .inner_btn a:hover{
+  color: #fff;
+  background: #325DCD;  
+  border: 1px solid #325DCD;
+
+}
+
+.Convenient .inner .infm .txt p{
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/*********** Convenient 끝 ***********/
+/*********** Search 시작 ************/
+.Search{
+  padding: 100px 0;
+  background: var(--mc);
+  text-align: center;
+  color: #fff;
+}
+
+.Search>h2{
+  font-size: 33px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.Search>p{
+  font-size: 21px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.Search .search_box{
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 8px 20px;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.Search .search_box input{
+  border: none;
+  outline: none;
+  width: 93%;
+}
+
+.Search .search_box i{
+  font-size: 30px;
+  color: #325dcd;
+}
+
+.Search .inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.Search .inner>figure {
+  padding: 45px 20px;
+  cursor: pointer; 
+  flex: 1;
+  text-align: center;
+  background: #69b4ff;
+}
+
+.Search .inner>figure:hover{
+  background: #69b4ff;
+}
+
+.Search figure .box{
+  margin-bottom: 15px;
+}
+
+.Search figure img{
+  width: 70px;
+  height: 77px;
+  /* margin-bottom: 15px; */
+}
+
+
+.Search figure .tit{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Search figure .dec{
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+/*
+.department,
+.clinic{
+  background: #58A3ED;
+}
+
+.department:hover,
+.clinic:hover{
+  background: #69b4ff;
+}
+.center,
+.outpatient{
+  background: #6AB9C3;
+}
+
+.center:hover,
+.outpatient:hover{
+  background: #5acedd;
+} 
+*/
+
+/*********** Search 끝 ***********/
+/*********** News 시작 ***********/
+.News{
+  padding: 100px 0;
+  background: #fff;
+}
+
+.News .inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .News{
+  padding: 100px 0;
+  background: #fff;
+}
+
+.News .inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.News .inner>div{
+    flex: 1;
+}
+
+.News .tab_content{
+  margin-top: 10px;
+}  
+.News .tab_content>div{
+    display: none;
+}
+
+.News .tab_content>div.on{
+    display: block;
+}
+
+.News .tab_menu{
+    display: flex;
+    border-bottom: 1px solid #999;
+}
+.News .tab_menu li{
+  font-size: 24px;
+  color: #d9d9d9;
+  margin-bottom: 15px;
+}
+
+.News .tab_menu li.on{
+    color: #222;
+}
+
+.News .tab_menu li a{
+    display: block;
+    padding: 0 15px;
+}
+
+.News .tab_menu li .pd{
+  padding-left: 0;
+  border-right: 1px solid #ddd;
+}
+
+.News .notice a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.News .notice a:hover{
+    color: #253981;
+    text-decoration: underline;
+}
+.News .notice strong{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    min-width: 0;    
+    width: 450px;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.News .notice span{
+  color: #959595;
+  font-size: 14px;
+  float: right;
+  line-height: 30px;
+} */
+
+
+
+/*********** News 끝 ***********/
+/*********** Health 시작***********/
+.Health{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 100px 0;
+}
+
+.Health h2{
+  text-align: left;
+  font-size: 31px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.Health .inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.Health .box{
+  margin-bottom: 15px;
+}
+
+.Health .inner .tit{
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.Health .inner .date{
+  display: block;
+  font-size: 14px;
+  color: #959595;
+}
+
+/*********** Health 끝 ***********/
+/*********** Footer 시작 ***********/
+.Footer{
+  background:#584d40;
+  padding: 30px 0;
+}
+
+.Footer .inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--lc);
+}
+
+.Footer .inner .center .top,
+.Footer .inner .center .middle {
+  margin-bottom: 20px;
+}
+
+.Footer .inner .center .top ul{
+  font-size: 15px;
+  display: flex;
+  gap: 30px;
+  color: var(--gc);
+}
+
+.Footer .inner .center .middle span{
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 20px;
+  color: var(--gc);
+}
+
+.Footer .inner .center .bottom{
+  font-size: 13px;
+  font-weight: 200;
+  color: #999;
+} 
+
+.Footer .inner .right {
+  display: flex;
+  gap: 10px;
+}
+
+.Footer .inner .right>a{
+  background: var(--gc);
+  color: var(--dc);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.Footer .inner .right>a>i{
+  font-size: 19px;
+}
+/*********** Footer 끝 ***********/

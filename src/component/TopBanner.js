@@ -18,7 +18,7 @@ const TopBanner = () => {
             <div className="notOpen">
                 <div className='today'>
                     <input type="checkbox" id="open" />
-                    <label for="open">오늘하루 열지않기</label>
+                    <label htmlFor="open">오늘하루 열지않기</label>
                 </div>                
                 <i className="xi-close" onClick={() => setTB('on')}></i>
             </div>

@@ -43,7 +43,8 @@ const MainVisual = () => {
                         )
                     })
                 }
-            </Slider>
+           </Slider>
+           {/*
             <div className="slideNum">
                 0{IDX + 1}<span> / 0{SLIDE.length}</span>
             </div>
@@ -55,11 +56,38 @@ const MainVisual = () => {
                         )
                     })
                 }
-            </ul>
-            <div className="slideArrows">
+            </ul> 
+            */}
+            {/* <div className="slideArrows">
                 <button onClick={() => mainSlide.current.slickPrev()}><i className='xi-arrow-left'></i></button>
                 <button onClick={() => mainSlide.current.slickNext()}><i className='xi-arrow-right'></i></button>
-            </div>
+           </div> */}
+           
+           <div className="smartBar">
+                    <div className="inner">
+                        <div className="tit">
+                            스마트 Bar
+                        </div>
+                        <div className="barMenu">
+                            <ul>
+                                <li><a href="#!"><i class="xi-paper-o"></i>진료예약</a></li>
+                                <li><a href="#!"><i class="xi-clock-o"></i>진료시간</a></li>
+                                <li><a href="#!"><i class="xi-city"></i>층별안내</a></li>
+                                <li><a href="#!"><i class="xi-map-o"></i>오시는길</a></li>
+                                <li><a href="#!"><i class="xi-car"></i>주차안내</a></li>
+                            </ul>
+                        </div>
+                        <div className="reserv">
+                            <a href="#!">
+                                <i className="xi-call"></i>
+                                <div className="txt">
+                                    <p>진료예약</p>
+                                    <p>051)555-5959</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
         </section>
     )
 }
